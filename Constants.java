@@ -7,6 +7,4 @@ public interface Constants
     public static final char RIGHT_CURLY = '}';
     public static final char LEFT_BRACKET = '[';
     public static final char RIGHT_BRACKET = ']';
-    public static final char SLASH = '/';
-    public static final char STAR = '*';
 }
