@@ -3,6 +3,7 @@ import java.util.EmptyStackException;
 
 public class Preprocessor
 {
+    //initializing the stack data structure
     Stack stk;
     String input;
     int length;
@@ -25,6 +26,7 @@ public class Preprocessor
             {
 		char ch = input.charAt(index);
                 
+		//algorithm to check if brackets are balanced
 		switch (ch) 
                 {
                     case Constants.LEFT_PAR:
