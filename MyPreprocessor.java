@@ -3,7 +3,7 @@ class MyPreprocessor
     public static void main(String[] arg)
     {
 	//"program" example to test the preprocessor
-	String s[] = {"(this input {is} correct)"};
+	String s[] = {"(this input {is not correct)"};
 		
 	//looping through program
         for (int i = 0; i < s.length; i++)
